@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<unistd.h>
+#include<fcntl.h>
+#include<sys/types.h>
+int n;
+int main ()
+{
+pid_t m;
+m=fork ();
+if(m>0)
+{wait (0);
+printf ("parent is created");
+}
+}
