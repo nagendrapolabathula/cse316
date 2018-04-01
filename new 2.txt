@@ -10,12 +10,4 @@ int main()
   int c[2],origin,x,y,destination;
   pid_t m;
   pipe(c);
-  m=fork();
-  if((m>0)) {
-  printf("parent created");
-  close(c[0]);
-  origin= open("test.txt", O_RDONLY);
-  x = read(origin, array, 300);
-  write(c[1], array, x);
-  wait(0);
-  }
+ 

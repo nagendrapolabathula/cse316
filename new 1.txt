@@ -12,3 +12,9 @@ if(m>0)
 printf ("parent is created");
 }
 }
+else if (m==0)
+{
+printf (" child created");
+printf ("enter the num\n");
+scanf ("%d”, &n);
+printf ("%d”, n);
