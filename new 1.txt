@@ -18,3 +18,11 @@ printf (" child created");
 printf ("enter the num\n");
 scanf ("%d”, &n);
 printf ("%d”, n);
+for (int i=n; i>1; i--)
+{
+if(n>1)
+{
+n=n/2;
+printf ("%d”, n);
+}
+}
