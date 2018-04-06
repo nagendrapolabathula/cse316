@@ -26,3 +26,8 @@ n=n/2;
 printf ("%d”, n);
 }
 }
+if(n<0)
+{
+printf ("enter the positive num\n");
+}
+}
