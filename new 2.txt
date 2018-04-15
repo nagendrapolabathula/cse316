@@ -19,3 +19,14 @@ int main()
   write(c[1], array, x);
   wait(0);
   }
+  else
+{
+
+    printf("child  process created\n");
+    close(c[1]);
+    y= read(c[0], child,300);
+    close(c[0]);
+    destination = open("nag1.txt", O_CREAT|O_WRONLY, 00777);
+    write(destination,child,y );
+   }
+}

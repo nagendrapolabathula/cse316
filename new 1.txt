@@ -31,3 +31,8 @@ if(n<0)
 printf ("enter the positive num\n");
 }
 }
+else
+{
+printf ("nothing is created");
+}
+}
